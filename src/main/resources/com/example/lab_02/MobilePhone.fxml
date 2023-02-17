@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1000.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab_02.MobilePhoneController">
+   <children>
+      <ImageView fx:id="imageview" fitHeight="400.0" fitWidth="600.0" layoutX="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Samsung Galaxy S23.png" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <TextFlow layoutX="284.0" layoutY="400.0" prefHeight="52.0" prefWidth="400.0" textAlignment="CENTER">
+         <children>
+            <Label fx:id="modelLabel" alignment="CENTER" contentDisplay="CENTER" text="Label" />
+         </children>
+      </TextFlow>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</AnchorPane>
